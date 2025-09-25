@@ -1,0 +1,37 @@
+body { font-family: Arial, sans-serif; background: #f4f6f8; margin: 20px; }
+h1 { color: #222; margin-bottom: 10px; }
+p.sub { color: #555; margin-top: 0; }
+#chatbox { border: 1px solid #ccc; background: #fff; padding: 15px; width: 100%; max-width: 960px; height: 520px; overflow-y: auto; margin-bottom: 12px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,.08); }
+.user { color: #1976d2; margin: 8px 0; font-weight: bold; }
+.bot { background: #e8f5e9; color: #2e7d32; margin: 8px 0; padding: 10px; border-radius: 8px; white-space: normal; line-height: 1.45; }
+.input-area { display: flex; gap: 10px; align-items: center; max-width: 960px; flex-wrap: wrap; }
+input[type="text"] { padding: 12px; flex: 1; border: 1px solid #bbb; border-radius: 8px; }
+button { padding: 12px 16px; background: #4CAF50; color: #fff; border: none; border-radius: 8px; cursor: pointer; transition: background .2s; }
+button:hover { background: #45a049; }
+button:disabled { background: #9e9e9e; cursor: not-allowed; }
+.meta { color: #777; font-size: 12px; margin-top: 6px; }
+.metrics { display: grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap: 8px; margin-top: 6px; }
+.card { background:#f9fbfc; border:1px solid #e5e9ef; border-radius:8px; padding:8px 10px; }
+.notes { margin-top: 6px; }
+.notes li { margin: 4px 0; }
+.hr { height: 1px; background: #e8eaee; margin: 8px 0; }
+.footer { color:#666; font-size:12px; margin-top:12px; }
+.toolbar { display:flex; gap:8px; align-items:center; margin: 10px 0; flex-wrap: wrap; }
+.secondary { background:#1976d2; }
+.secondary:hover { background:#1565c0; }
+.neutral { background:#607d8b; }
+.neutral:hover { background:#546e7a; }
+.danger { background:#ef5350; }
+.danger:hover { background:#e53935; }
+.disclaimer { color:#555; font-size:12px; max-width:960px; margin:6px 0 14px; }
+@media (prefers-color-scheme: dark) {
+  body { background:#0f1115; color:#e3e5e8; }
+  h1 { color:#e8eaed; }
+  p.sub, .disclaimer { color:#b0b6bf; }
+  #chatbox { background:#151821; border-color:#2a3140; box-shadow:none; }
+  .card { background:#111420; border-color:#263146; }
+  .bot { background:#0f2a1a; color:#b1e4c2; }
+  input[type="text"] { background:#0f1115; color:#e3e5e8; border-color:#2e3646; }
+}
+
+
