@@ -75,6 +75,5 @@ Security & Deploy Notes
 - Keep API keys off the client. If using real news/social APIs, add a tiny proxy with rate limiting and CORS; otherwise stick to mock endpoints as configured in Settings.
 - Feature‑detect embeddings/LLM; the app degrades gracefully to TF‑IDF and heuristic synthesis.
 
-License
-MIT
+
 
